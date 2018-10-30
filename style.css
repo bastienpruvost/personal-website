@@ -1,0 +1,116 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bgimg {
+    position: relative;
+    opacity: 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("background.jpg");
+    min-height: 100%;
+}
+
+.title-lgx {
+    font-family: 'Oswald';
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.title-light {
+    font-family: 'Oswald';
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.highlight {
+    color: #4ac3bf;
+}
+
+.link {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.text-zone {
+    padding: 20px 40px;
+    margin: 50px 10px;
+    background-color: white;
+    opacity: 0.7;
+}
+
+.btn, button, input[type="submit"] {
+    background-color: #333333;
+    color: #fff;
+    font-family: 'Lato';
+    font-size: 13px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+    text-transform: uppercase;
+    line-height: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.btn:hover, button:hover, input[type="submit"]:hover, .btn.active, button.active, input[type="submit"].active {
+    background-color: #4ac3bf;
+    color: #fff;
+}
+
+#footer {
+    text-align: center;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    line-height: 1.7em;
+    font-family: 'Lato';
+    color: #333333;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#footer p {
+    margin: 0px;
+}
+
+#footer a {
+    color: #4ac3bf;
+    text-decoration: none;
+}
+
+#footer ul.social {
+    padding-left: 0px;
+    overflow: hidden;
+    text-align: center;
+    list-style-type: none;
+    display: block;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+#footer ul.social li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#footer ul.social li a {
+    font-size: 30px;
+    color: rgba(51, 51, 51, 0.3);
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+#footer ul.social li a:hover {
+    color: #4ac3bf;
+}
