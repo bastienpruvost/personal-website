@@ -30,7 +30,8 @@ body, html {
 }
 
 .highlight {
-    color: #4ac3bf;
+    color: #4a82c3;
+    font-weight: bold;
 }
 
 .link {
@@ -65,7 +66,7 @@ body, html {
 }
 
 .btn:hover, button:hover, input[type="submit"]:hover, .btn.active, button.active, input[type="submit"].active {
-    background-color: #4ac3bf;
+    background-color: #4a82c3;
     color: #fff;
 }
 
@@ -85,7 +86,7 @@ body, html {
 }
 
 #footer a {
-    color: #4ac3bf;
+    color: #4a82c3;
     text-decoration: none;
 }
 
@@ -114,5 +115,5 @@ body, html {
 }
 
 #footer ul.social li a:hover {
-    color: #4ac3bf;
+    color: #4a82c3;
 }
